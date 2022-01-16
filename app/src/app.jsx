@@ -17,7 +17,6 @@ const Ultra = ({ cache }) => {
   const [location, setLocation] = useLocation();
 
   useEffect(() => {
-    console.log(match);
     fetch("/api/get_screen_name", { method: "GET", credentials: "include" })
       .then((res) => res.json())
       .then((data) => {

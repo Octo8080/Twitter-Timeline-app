@@ -16,7 +16,6 @@ const Links = function ({ screenName }) {
       .then((data) => {
         setState(true);
         setData(data.payload);
-        console.log(data.payload);
       }).catch(() => {
         setState(false);
         setLocation("/");

@@ -12,7 +12,7 @@ export {
   getAuthenticateLink,
   type GetAuthLinkParam,
   stringQueryToObject,
-} from "https://deno.land/x/twitter_oauth_1_0a@1.0.4/mod.ts";
+} from "https://deno.land/x/twitter_oauth_1_0a@1.0.5/mod.ts";
 
 export {
   statusHomeTimeline,
