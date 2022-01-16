@@ -5,7 +5,7 @@ import { addCustomRoutes } from "./routes/custom_routes.ts";
 const session = new OakSession(app);
 
 app.use(CORS({
-  origin: "http://localhost:8080",
+  origin: Deno.env.get("ORIGIN"),
   credentials: true,
 }));
 
