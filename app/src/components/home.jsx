@@ -1,13 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { Helmet } from "helmet";
-import { useLocation } from "wouter";
 
 import Spinner from "./spinner.jsx";
 
 const Links = function ({ screenName }) {
   const [data, setData] = useState([]);
   const [state, setState] = useState(false);
-  const [location, setLocation] = useLocation();
 
   const updateData = () => {
     setState(false);
@@ -18,7 +16,7 @@ const Links = function ({ screenName }) {
         setData(data.payload);
       }).catch(() => {
         setState(false);
-        setLocation("/");
+        window.location = "/"
       });
   };
 
