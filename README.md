@@ -17,5 +17,6 @@ ORIGIN=<Origin>
 execute.
 
 ```sh
+$ cd app
 $ make dev
 ```
