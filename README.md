@@ -4,7 +4,7 @@ Twitter timeline viewer app on based Ultra(deno).
 
 # Usage
 
-Prease stuup env.
+Please setup env.
 
 ```env
 SALTCODE=<Arbitrary string>
