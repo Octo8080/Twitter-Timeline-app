@@ -7,7 +7,7 @@ import { Route, useLocation, useRoute } from "wouter";
 
 import Home from "./components/home.jsx";
 import Nav from "./components/nav.jsx";
-import Defult from "./components/defult.jsx";
+import Default from "./components/default.jsx";
 import Spinner from "./components/spinner.jsx";
 
 const Ultra = ({ cache }) => {
@@ -49,7 +49,7 @@ const Ultra = ({ cache }) => {
         <hr />
         <div>
           <Route path="/">
-            <Defult />
+            <Default />
           </Route>
           <Route path="/home">
             <Home screenName={screenName} />

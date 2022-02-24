@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Helmet } from "helmet";
 
-const Defult = function () {
+const Default = function () {
   return (
     <>
       <Helmet>
@@ -15,4 +15,4 @@ const Defult = function () {
   );
 };
 
-export default Defult;
+export default Default;
